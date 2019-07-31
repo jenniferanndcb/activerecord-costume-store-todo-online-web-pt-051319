@@ -5,6 +5,10 @@ class CostumeStores < ActiveRecord::Migration[5.1]
       |t|
       
       t.string :name 
-      
+      t.string :location 
+      t.integer :number_of_costumes
+      t.integer :number_of_employees 
+      t.string :in_business?
+      t.
   end 
 end 
